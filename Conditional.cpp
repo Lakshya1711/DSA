@@ -57,4 +57,12 @@ else{
 	cout<<"Special Character";
 }
 */
+
+/*3. convert F to C
+int F,C;
+cin>>F;
+
+C=(F-32)*5/9;
+cout<<"Celsius:"<<C;
+*/
 }
