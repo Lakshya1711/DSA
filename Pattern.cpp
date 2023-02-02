@@ -5,7 +5,7 @@ int main(){
 1. ***
    ***
    ***	
-	
+*/	
 	int n;
 	cin>>n;
 	int i=1;
@@ -19,7 +19,7 @@ int main(){
 		  i++;
 		
 	}
-*/
+
 
 /*
 2. 111
@@ -500,7 +500,7 @@ while(i<=n){
 	    3 4
 		  4
 		  
-		  */
+		  
 int n;
 cin>>n;
 int i=1;
@@ -517,5 +517,6 @@ while(i<=n){
 	}
 	cout<<endl;
 	i++;
-}		  	  		  		 			 			
+}
+*/		  	  		  		 			 			
 }
