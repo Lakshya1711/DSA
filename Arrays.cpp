@@ -109,7 +109,7 @@ int main(){
 
 /*
 5.) Reverse array
-*/
+
 reverse(int arr[],int n){
 	for(int i=n-1;i>=0;i--){
 		cout<<arr[i]<<" ";
@@ -125,3 +125,56 @@ int main(){
 	}
 	reverse(arr,n);
 }
+*/
+
+/*
+6.) Swap Alternative
+
+swap(int arr[],int n){
+	int temp;
+	for(int i=0;i<n;i=i+2){
+		if(i+1<n){
+		temp=arr[i];
+		arr[i]=arr[i+1];
+		arr[i+1]=temp;
+	}
+}
+	for(int i=0;i<n;i++){
+		cout<<arr[i]<<" ";
+	}
+	return 0;
+}
+int main(){
+	int n,arr[100];
+	cin>>n;
+	for(int i=0;i<n;i++){
+		cin>>arr[i];
+	}
+	swap(arr,n);
+}
+*/
+
+/*
+7.) Find Unique
+
+Unique(int arr[],int n){
+	int remain=0;
+	for(int i=0;i<n;i++){
+			remain=remain^arr[i];
+		}		
+	return remain;
+}
+
+int main(){
+		int n,arr[100];
+		cin>>n;
+		for(int i=0;i<n;i++){
+			cin>>arr[i];
+		}
+		Unique(arr,n);
+	}
+*/
+
+/*
+8.) Find Dupilate
+*/
