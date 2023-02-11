@@ -176,5 +176,53 @@ int main(){
 */
 
 /*
-8.) Find Dupilate
+8.) Array Intersaction
+
+intersaction(int arr1[],int arr2[],int n){
+	for(int i=0;i<n;i++){
+		for(int j=0;j<=n;j++){
+			if(arr1[i]==arr2[j]){
+				cout<<arr1[i]<<" ";
+			}
+		}
+	}
+	return 0;
+}
+
+int main(){
+	int n,arr1[100],arr2[100];
+cin>>n;
+for(int i=0;i<n;i++){
+	cin>>arr1[i];
+}
+for(int j=0;j<n;j++){
+	cin>>arr2[j];
+}
+intersaction(arr1,arr2,n);
+}
 */
+
+/*
+9.) Pair Sum
+*/
+pair(int arr[],int n,int sum){
+	for(int i=0;i<n;i++){
+		for(int j=i+1;j<n;j++){
+			if(arr[i]+arr[j]==sum){
+				cout<<arr[i]<<" "<<arr[j]<<endl;
+			}
+		}
+	}
+	return 0;
+}
+int main(){
+	int n,arr[100];
+	cin>>n;
+	int sum;
+	cout<<"Enter Pair Sum : ";
+	cin>>sum;
+	for(int i=0;i<n;i++){
+		cin>>arr[i];
+	}
+	pair(arr,n,sum);
+}

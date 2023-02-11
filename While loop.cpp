@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 
-/* 1. Sum of no.	
+// 1. Sum of no.	
 int n,i=1,sum=0;
 cin>>n;
 while (i<=n){
@@ -11,7 +11,7 @@ while (i<=n){
 	i++;
 }
 cout<<sum;
-*/
+
 
 /* 2. Sum of all Even no.
 int n,i=1,sum=0;
